@@ -7,13 +7,54 @@
 //
 
 #import "MGAppDelegate.h"
+#import "MGViewController.h"
+#import "MGCameraViewController.h"
 
 @implementation MGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    
+    MGViewController* MGView1 = [[MGViewController alloc] init];
+    MGCameraViewController* cameraView = [[MGCameraViewController alloc] init];
+    MGCameraViewController* cameraView2 = [[MGCameraViewController alloc] init];
+
+    
+    
+    [MGView1.tabBarController setTitle:@"View1"];
+    [cameraView.tabBarController setTitle:@"view2"];
+    [cameraView2.tabBarController setTitle:@"view2"];
+    
+    
+    
+    
+    [cameraView setTag:1];
+    [cameraView2 setTag:2];
+    
+    
+    
+        
+    
+    
+    //UIPinchGestureRecognizer * pinchRecognizer = [[UIPinchGestureRecognizer alloc] initWithTarget:camVC1 action:@selector(pinchRec)];
+    //[[camVC4 view] addGestureRecognizer: pinchRecognizer];
+    
+    
+    UITabBarController * tbc = [[UITabBarController alloc] init];
+    
+    
+    [tbc setViewControllers:[NSArray arrayWithObjects:MGView1, cameraView, cameraView2, nil]];
+    
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    [self.window setRootViewController: tbc];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

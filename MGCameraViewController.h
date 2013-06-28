@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <opencv2/highgui/cap_ios.h>
 
-@interface MGCameraViewController : UIViewController
+
+@interface MGCameraViewController : UIViewController<CvVideoCameraDelegate>
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIButton *startButton;
+@property(nonatomic) int tag;
+
+- (IBAction)startButtonClick:(id)sender;
 
 @end

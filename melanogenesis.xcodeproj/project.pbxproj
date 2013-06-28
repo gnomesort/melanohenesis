@@ -16,10 +16,21 @@
 		E591CE64177D091800739FEC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E591CE63177D091800739FEC /* Default.png */; };
 		E591CE66177D091800739FEC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E591CE65177D091800739FEC /* Default@2x.png */; };
 		E591CE68177D091800739FEC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E591CE67177D091800739FEC /* Default-568h@2x.png */; };
-		E591CE6B177D091800739FEC /* MGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E591CE6A177D091800739FEC /* MGRootViewController.m */; };
-		E591CE6E177D091800739FEC /* MGDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E591CE6D177D091800739FEC /* MGDataViewController.m */; };
-		E591CE71177D091800739FEC /* MGModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = E591CE70177D091800739FEC /* MGModelController.m */; };
-		E591CE74177D091900739FEC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E591CE72177D091900739FEC /* MainStoryboard.storyboard */; };
+		E591CE83177D0D7900739FEC /* MGViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E591CE81177D0D7900739FEC /* MGViewController.mm */; };
+		E591CE84177D0D7900739FEC /* MGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591CE82177D0D7900739FEC /* MGViewController.xib */; };
+		E591CE8A177D0FE200739FEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE85177D0FE200739FEC /* AVFoundation.framework */; };
+		E591CE8B177D0FE200739FEC /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE86177D0FE200739FEC /* CoreImage.framework */; };
+		E591CE8C177D0FE200739FEC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE87177D0FE200739FEC /* CoreMedia.framework */; };
+		E591CE8D177D0FE200739FEC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE88177D0FE200739FEC /* CoreVideo.framework */; };
+		E591CE8E177D0FE200739FEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE89177D0FE200739FEC /* QuartzCore.framework */; };
+		E591CE93177D128A00739FEC /* lepr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E591CE92177D128A00739FEC /* lepr.jpg */; };
+		E591CE9B177D2EEA00739FEC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE99177D2EEA00739FEC /* Accelerate.framework */; };
+		E591CE9C177D2EEA00739FEC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE9A177D2EEA00739FEC /* AssetsLibrary.framework */; };
+		E591CE9E177D31B300739FEC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE9D177D31B300739FEC /* opencv2.framework */; };
+		E591CEA0177D346700739FEC /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CE9F177D346700739FEC /* libstdc++.dylib */; };
+		E591CEA2177D347300739FEC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E591CEA1177D347300739FEC /* libc++.dylib */; };
+		E591CEA6177D357B00739FEC /* MGCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E591CEA4177D357B00739FEC /* MGCameraViewController.mm */; };
+		E591CEA7177D357B00739FEC /* MGCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591CEA5177D357B00739FEC /* MGCameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,13 +47,23 @@
 		E591CE63177D091800739FEC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E591CE65177D091800739FEC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E591CE67177D091800739FEC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E591CE69177D091800739FEC /* MGRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGRootViewController.h; sourceTree = "<group>"; };
-		E591CE6A177D091800739FEC /* MGRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGRootViewController.m; sourceTree = "<group>"; };
-		E591CE6C177D091800739FEC /* MGDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGDataViewController.h; sourceTree = "<group>"; };
-		E591CE6D177D091800739FEC /* MGDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGDataViewController.m; sourceTree = "<group>"; };
-		E591CE6F177D091800739FEC /* MGModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGModelController.h; sourceTree = "<group>"; };
-		E591CE70177D091800739FEC /* MGModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGModelController.m; sourceTree = "<group>"; };
-		E591CE73177D091900739FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E591CE80177D0D7900739FEC /* MGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGViewController.h; sourceTree = "<group>"; };
+		E591CE81177D0D7900739FEC /* MGViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGViewController.mm; sourceTree = "<group>"; };
+		E591CE82177D0D7900739FEC /* MGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGViewController.xib; sourceTree = "<group>"; };
+		E591CE85177D0FE200739FEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E591CE86177D0FE200739FEC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		E591CE87177D0FE200739FEC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E591CE88177D0FE200739FEC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E591CE89177D0FE200739FEC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E591CE92177D128A00739FEC /* lepr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lepr.jpg; sourceTree = "<group>"; };
+		E591CE99177D2EEA00739FEC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E591CE9A177D2EEA00739FEC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E591CE9D177D31B300739FEC /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../OpenCV/opencv2.framework; sourceTree = "<group>"; };
+		E591CE9F177D346700739FEC /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		E591CEA1177D347300739FEC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		E591CEA3177D357B00739FEC /* MGCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCameraViewController.h; sourceTree = "<group>"; };
+		E591CEA4177D357B00739FEC /* MGCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGCameraViewController.mm; sourceTree = "<group>"; };
+		E591CEA5177D357B00739FEC /* MGCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGCameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +71,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E591CEA2177D347300739FEC /* libc++.dylib in Frameworks */,
+				E591CEA0177D346700739FEC /* libstdc++.dylib in Frameworks */,
+				E591CE9E177D31B300739FEC /* opencv2.framework in Frameworks */,
+				E591CE9B177D2EEA00739FEC /* Accelerate.framework in Frameworks */,
+				E591CE9C177D2EEA00739FEC /* AssetsLibrary.framework in Frameworks */,
+				E591CE8A177D0FE200739FEC /* AVFoundation.framework in Frameworks */,
+				E591CE8B177D0FE200739FEC /* CoreImage.framework in Frameworks */,
+				E591CE8C177D0FE200739FEC /* CoreMedia.framework in Frameworks */,
+				E591CE8D177D0FE200739FEC /* CoreVideo.framework in Frameworks */,
+				E591CE8E177D0FE200739FEC /* QuartzCore.framework in Frameworks */,
 				E591CE52177D091800739FEC /* UIKit.framework in Frameworks */,
 				E591CE54177D091800739FEC /* Foundation.framework in Frameworks */,
 				E591CE56177D091800739FEC /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +93,12 @@
 		E591CE45177D091800739FEC = {
 			isa = PBXGroup;
 			children = (
+				E591CEA3177D357B00739FEC /* MGCameraViewController.h */,
+				E591CEA4177D357B00739FEC /* MGCameraViewController.mm */,
+				E591CEA5177D357B00739FEC /* MGCameraViewController.xib */,
+				E591CE80177D0D7900739FEC /* MGViewController.h */,
+				E591CE81177D0D7900739FEC /* MGViewController.mm */,
+				E591CE82177D0D7900739FEC /* MGViewController.xib */,
 				E591CE57177D091800739FEC /* melanogenesis */,
 				E591CE50177D091800739FEC /* Frameworks */,
 				E591CE4F177D091800739FEC /* Products */,
@@ -79,6 +116,16 @@
 		E591CE50177D091800739FEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E591CEA1177D347300739FEC /* libc++.dylib */,
+				E591CE9F177D346700739FEC /* libstdc++.dylib */,
+				E591CE9D177D31B300739FEC /* opencv2.framework */,
+				E591CE99177D2EEA00739FEC /* Accelerate.framework */,
+				E591CE9A177D2EEA00739FEC /* AssetsLibrary.framework */,
+				E591CE85177D0FE200739FEC /* AVFoundation.framework */,
+				E591CE86177D0FE200739FEC /* CoreImage.framework */,
+				E591CE87177D0FE200739FEC /* CoreMedia.framework */,
+				E591CE88177D0FE200739FEC /* CoreVideo.framework */,
+				E591CE89177D0FE200739FEC /* QuartzCore.framework */,
 				E591CE51177D091800739FEC /* UIKit.framework */,
 				E591CE53177D091800739FEC /* Foundation.framework */,
 				E591CE55177D091800739FEC /* CoreGraphics.framework */,
@@ -91,13 +138,6 @@
 			children = (
 				E591CE60177D091800739FEC /* MGAppDelegate.h */,
 				E591CE61177D091800739FEC /* MGAppDelegate.m */,
-				E591CE69177D091800739FEC /* MGRootViewController.h */,
-				E591CE6A177D091800739FEC /* MGRootViewController.m */,
-				E591CE6C177D091800739FEC /* MGDataViewController.h */,
-				E591CE6D177D091800739FEC /* MGDataViewController.m */,
-				E591CE6F177D091800739FEC /* MGModelController.h */,
-				E591CE70177D091800739FEC /* MGModelController.m */,
-				E591CE72177D091900739FEC /* MainStoryboard.storyboard */,
 				E591CE58177D091800739FEC /* Supporting Files */,
 			);
 			path = melanogenesis;
@@ -106,6 +146,7 @@
 		E591CE58177D091800739FEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E591CE91177D124B00739FEC /* images */,
 				E591CE59177D091800739FEC /* melanogenesis-Info.plist */,
 				E591CE5A177D091800739FEC /* InfoPlist.strings */,
 				E591CE5D177D091800739FEC /* main.m */,
@@ -116,6 +157,14 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		E591CE91177D124B00739FEC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E591CE92177D128A00739FEC /* lepr.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -173,7 +222,9 @@
 				E591CE64177D091800739FEC /* Default.png in Resources */,
 				E591CE66177D091800739FEC /* Default@2x.png in Resources */,
 				E591CE68177D091800739FEC /* Default-568h@2x.png in Resources */,
-				E591CE74177D091900739FEC /* MainStoryboard.storyboard in Resources */,
+				E591CE84177D0D7900739FEC /* MGViewController.xib in Resources */,
+				E591CE93177D128A00739FEC /* lepr.jpg in Resources */,
+				E591CEA7177D357B00739FEC /* MGCameraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,9 +237,8 @@
 			files = (
 				E591CE5E177D091800739FEC /* main.m in Sources */,
 				E591CE62177D091800739FEC /* MGAppDelegate.m in Sources */,
-				E591CE6B177D091800739FEC /* MGRootViewController.m in Sources */,
-				E591CE6E177D091800739FEC /* MGDataViewController.m in Sources */,
-				E591CE71177D091800739FEC /* MGModelController.m in Sources */,
+				E591CE83177D0D7900739FEC /* MGViewController.mm in Sources */,
+				E591CEA6177D357B00739FEC /* MGCameraViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,14 +251,6 @@
 				E591CE5B177D091800739FEC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E591CE72177D091900739FEC /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E591CE73177D091900739FEC /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,6 +317,11 @@
 		E591CE78177D091900739FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../OpenCV\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "melanogenesis/melanogenesis-Prefix.pch";
 				INFOPLIST_FILE = "melanogenesis/melanogenesis-Info.plist";
@@ -286,6 +333,11 @@
 		E591CE79177D091900739FEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../OpenCV\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "melanogenesis/melanogenesis-Prefix.pch";
 				INFOPLIST_FILE = "melanogenesis/melanogenesis-Info.plist";
